@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="206px" height="253px" viewBox="0 0 206 253" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>E2585870-F7AC-400F-AC7D-45C8E1459FB2</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M203.55,75.7166667 L95.3833333,183.883333 C93.4166667,185.85 91.45,186.833333 88.5,186.833333 C85.55,186.833333 83.5833333,185.85 81.6166667,183.883333 L32.45,134.716667 C28.5166667,130.783333 28.5166667,124.883333 32.45,120.95 C36.3833333,117.016667 42.2833333,117.016667 46.2166667,120.95 L88.5,163.233333 L189.783333,61.95 C193.716667,58.0166667 199.616667,58.0166667 203.55,61.95 C207.483333,65.8833333 207.483333,71.7833333 203.55,75.7166667 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Privat_01.2" transform="translate(0.000000, -2484.000000)">
+            <g id="03" transform="translate(-1.000000, 1928.000000)">
+                <g id="Group-3" transform="translate(0.000000, 556.000000)">
+                    <rect id="Rectangle-2-Copy-2" fill="#108EC8" x="0" y="0" width="118" height="253"></rect>
+                    <g id="icon-/-check" transform="translate(0.000000, 16.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="color-/-white" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="Shape" x="0" y="0" width="236" height="236"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
