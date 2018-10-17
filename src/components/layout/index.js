@@ -4,6 +4,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import reset from 'styled-reset';
 import styled from 'styled-components';
+import { withPrefix } from 'gatsby-link';
 import { injectGlobal, ThemeProvider } from 'styled-components';
 import { injectIntl } from 'react-intl';
 import theme from '../../theme';
@@ -65,6 +66,13 @@ const Layout = ({ children, data, intl }: Props) => (
             {
               name: 'keywords',
               content: intl.formatMessage({ id: 'keywords' }),
+            },
+          ]}
+          link={[
+            {
+              rel: 'shortcut icon',
+              type: 'image/png',
+              href: withPrefix('favicon-32x32.png'),
             },
           ]}
         />
