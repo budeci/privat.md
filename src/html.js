@@ -31,7 +31,12 @@ module.exports = class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png"></link>
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./src/favicon-32x32.png"
+          />
           <TypographyStyle typography={typography} />
           <GoogleFont typography={typography} />
           {this.props.headComponents}

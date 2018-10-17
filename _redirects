@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://app-privat.netlify.com/* https://privat.md/:splat 301!
