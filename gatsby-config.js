@@ -24,7 +24,7 @@ module.exports = {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://www.privat.md',
-        resolveEnv: () => process.env.GATSBY_ENV,
+        resolveEnv: () => process.env.NODE_ENV,
         env: {
           development: {
             policy: [{ userAgent: '*', disallow: ['/'] }],
