@@ -23,16 +23,18 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://www.privat.md',
-        resolveEnv: () => process.env.NODE_ENV,
-        env: {
-          development: {
-            policy: [{ userAgent: '*', disallow: ['/'] }],
-          },
-          production: {
-            policy: [{ userAgent: '*', allow: '/' }],
-          },
-        },
+        host: 'https://www.privat.md/',
+        policy: [{ userAgent: '*', allow: '/' }],
+        sitemap: '',
+        // resolveEnv: () => process.env.NODE_ENV,
+        // env: {
+        //   development: {
+        //     policy: [{ userAgent: '*', disallow: ['/'] }],
+        //   },
+        //   production: {
+        //     policy: [{ userAgent: '*', allow: '/' }],
+        //   },
+        // },
       },
     },
   ],
